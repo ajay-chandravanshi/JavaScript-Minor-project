@@ -15,7 +15,7 @@
 #main{
     opacity: 0.9;
     width: 27%;
-    height: 83%;
+    height: 70%;
     max-width: 400px; /* Prevents stretching beyond this width */
     table-layout: fixed;
 }
