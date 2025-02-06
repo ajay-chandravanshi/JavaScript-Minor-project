@@ -4,10 +4,10 @@
     align-items: center;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    /* background-image: url("https://cdn.pixabay.com/photo/2020/01/21/08/06/indian-temple-4782290_960_720.jpg");
+    background-image: url("/pexels-brakou-1723637.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
    background-color:rgb(133, 243, 243);
    overflow: hidden;
     
@@ -15,6 +15,7 @@
 #main{
     opacity: 0.9;
     width: 27%;
+    height: 83%;
     max-width: 400px; /* Prevents stretching beyond this width */
     table-layout: fixed;
 }
