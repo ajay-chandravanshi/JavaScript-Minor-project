@@ -8,14 +8,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   background-color:rgb(133, 243, 243);
    overflow: hidden;
     
 }
 #main{
     opacity: 0.9;
     width: 27%;
-    height: 60%;
+    height: 68%;
     max-width: 400px; /* Prevents stretching beyond this width */
     table-layout: fixed;
 }
@@ -67,18 +66,17 @@ table{
     width: 45px;
     font-size: 28px;
 }
-@media(max-width:700px){
+@media(max-width:1000px){
     #main{
         opacity: 1;
         width: 90%;
         max-width: 400px; /* Prevents stretching beyond this width */
-        table-layout: fixed;
+        /* table-layout: fixed; */
     }
     #body {
-        background-image: url("/pexels-brakou-1723637.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top;
-     
+        background-image:none;
+        background-color: rgb(125, 136, 74);
+        position: absolute;
+        bottom: 5%;
     }    
 }
