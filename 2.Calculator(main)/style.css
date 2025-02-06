@@ -15,7 +15,7 @@
 #main{
     opacity: 0.9;
     width: 27%;
-    height: 70%;
+    height: 60%;
     max-width: 400px; /* Prevents stretching beyond this width */
     table-layout: fixed;
 }
@@ -69,9 +69,16 @@ table{
 }
 @media(max-width:700px){
     #main{
-        opacity: 0.9;
+        opacity: 1;
         width: 90%;
         max-width: 400px; /* Prevents stretching beyond this width */
         table-layout: fixed;
     }
+    #body {
+        background-image: url("/pexels-brakou-1723637.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+     
+    }    
 }
