@@ -18,7 +18,7 @@ let ac=()=>{
 let del=()=>{
     let show=document.querySelector("#display");
     store=store.slice(0,-1);
-    show.innerHTML=store;
+    show.innerHTML=store || "0";
 }
 
 let square=()=>{

@@ -1,0 +1,76 @@
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url("https://cdn.pixabay.com/photo/2020/01/21/08/06/indian-temple-4782290_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+   background-color:rgb(133, 243, 243);
+   overflow: hidden;
+    
+}
+#main{
+    opacity: 0.9;
+    width: 27%;
+    max-width: 400px; /* Prevents stretching beyond this width */
+    table-layout: fixed;
+}
+
+#button{
+     font-size: 20px;
+     text-align: center;
+     color: white;
+     background-color: rgb(46, 45, 45);
+    
+}
+
+#btn{
+  cursor: pointer;
+}
+
+#button td{
+    border-radius: 12px;
+    box-shadow: 0px 0px black;
+}
+table{
+    border-radius: 18px;
+    background-color: black;
+    background-image: linear-gradient(rgb(78, 83, 79), rgb(90, 86, 78), rgba(76, 77, 74, 0.795));
+    
+}
+#display{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    font-size: 1.8rem;
+    text-align: right;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides overflowing text */
+    text-overflow: ellipsis;
+}
+
+#colorbutton{
+    color: rgb(250, 145, 59);
+    font-weight: 600;
+}
+.equal{
+    background-color: rgb(255, 72, 0); 
+}
+.button1{
+    
+    padding: 0px;
+    width: 45px;
+    font-size: 28px;
+}
+@media(max-width:700px){
+    #main{
+        opacity: 0.9;
+        width: 90%;
+        max-width: 400px; /* Prevents stretching beyond this width */
+        table-layout: fixed;
+    }
+}
